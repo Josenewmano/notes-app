@@ -1,15 +1,14 @@
 {
   "dependencies": {
-    "esbuild": "^0.14.38"
+    "esbuild": "^0.14.38",
+    "jest": "^28.0.3"
   },
   "name": "notes-app",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "esbuild index.js --bundle  --outfile=bundle.js --watch"
-
   },
   "repository": {
     "type": "git",
@@ -22,5 +21,8 @@
     "url": "https://github.com/Josenewmano/notes-app/issues"
   },
   "homepage": "https://github.com/Josenewmano/notes-app#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "jest-environment-jsdom": "^28.0.2"
+  }
 }
