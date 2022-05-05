@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "esbuild": "^0.14.38",
-    "jest": "^28.0.3"
+    "jest": "^28.0.3",
+    "jest-mock-fetch": "^2.0.5"
   },
   "name": "notes-app",
   "version": "1.0.0",
