@@ -13,9 +13,7 @@ describe(NotesApi, () => {
       ));
 
     api.loadNotes((returnedDataFromApi) => {
-      expect(returnedDataFromApi.notes).toBe(["a note"]);
-      // expect(returnedDataFromApi.notes[1]).toBe("another note");
-      // expect(returnedDataFromApi.notes[2]).toBe("a third note");
+      expect(returnedDataFromApi.notes[0]).toEqual("a note");
     });
   });
 });
